@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(245, 242, 238); 
+}
+
+.three {
+    width: 80%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border-radius: 15px;
+    padding: 2rem 3rem;
+    margin-bottom: 50px;
+}
+.head {
+background-image: url("https://img.taste.com.au/ZtNx5HiG/taste/2016/11/pea-omelette-with-crispy-bacon-and-tomato-105966-1.jpeg");
+height: 30vh;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+ border-radius: 15px;
+ margin-top: 2rem;
+}
+
+ li {
+    padding: 2px;
+ }
+
+ 
+h1{
+    font-size:40px;
+    margin: 20px;
+  
+}
+  h3 {
+    color:#CB4551;
+    margin: 20px;
+}
+.h3 {
+    background-color: #ece5e4 ;
+    border-radius: 5px;
+}
+
+h4 {
+    color: hsl(31, 82%, 47%);
+    margin: 20px;
+}
+span {
+    font-weight: bolder;
+}
+.td {
+    color: hsl(30, 10%, 34%) ;
+    padding: 10px;
+}
+table {
+    
+    width:50%;
+     border-collapse: collapse;
+     margin: auto;
+
+}
+tr {
+
+    border-bottom:2px solid #CB4551;
+}
+
+@media(max-width:500px){
+    .three {
+        width: 95%;
+        margin: auto;
+    }
+    h1{
+        font-size:25px;
+      
+    }
+
+}
